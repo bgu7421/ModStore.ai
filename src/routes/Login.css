@@ -1,0 +1,47 @@
+.login {
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    text-align: center !important;
+    max-width: 1000px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+.welcome {
+    font-size: 25px;
+}
+
+.companyname {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-color: black;
+    transition: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px 19px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.place {
+    padding-top: 20px;
+}

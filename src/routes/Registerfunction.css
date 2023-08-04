@@ -1,0 +1,28 @@
+.idfont {
+    padding-right: 285px;
+    padding-top: 20px;
+}
+
+.password {
+    padding-right: 230px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  
+}
+
+.box1 {
+    padding-bottom: 30px;
+}
+
+.box1 input {
+    border-radius: 3px;
+    width: 30%;
+    height: 30px;
+}
+
+.passwordcon{
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+ 
+}

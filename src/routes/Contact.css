@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+ .App {
+     justify-content: center;
+     max-width: 420px;
+     margin: 0 auto;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+     font-family: 'Dosis', sans-serif;
+     font-weight: bold;
+}
+ p {
+     text-align: center;
+     font-weight: 1000;
+     font-family: 'Dosis', sans-serif;
+     font-size: 1.5rem;
+
+}
+ input[type=text],input[type=email], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+     font-family: 'Dosis', sans-serif;
+}
+ input[type=submit] {
+     justify-content: center;
+     background-color:black;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     font-family: 'Dosis', sans-serif;
+     cursor: pointer;
+     font-weight: bold;
+}
+ input[type=submit]:hover {
+     background-color: black;
+     font-family: 'Dosis', sans-serif;
+}
+ .container {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+     font-family: 'Dosis', sans-serif;
+}
+
+.button-place {
+    padding-left: 170px;
+}

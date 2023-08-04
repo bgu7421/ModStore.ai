@@ -1,0 +1,320 @@
+.logo2 {
+    vertical-align: middle;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+
+.btn-primary{
+    color: white;
+    background-color: black;
+    border-color: black;
+    
+}
+
+.btn {
+    transition: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.button{
+    padding-left: 0px;
+    padding-top: 10px
+}
+
+.masthead{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Dosis', sans-serif;
+    text-shadow:3px 3px 3px rgb(226, 226, 226);
+    padding-left: 0px; 
+    padding-top: 40px;
+}
+
+.topbox{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 500px !important;
+    position: relative;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    text-align: center !important;
+}
+
+.blank{
+    color: #EDEDED;
+    font-size: 2rem;
+}
+
+.container{
+    max-width: 720px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ourfocus{
+    justify-content: center !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center !important;
+
+
+}
+
+.title{
+    padding-left: 0px;
+    font-size: 1.3rem;
+    padding-top: 4rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding-bottom: 100px;
+    text-align: center !important;
+}
+
+.manufacture{
+    align-items: center;
+    text-decoration: none;
+    text-align: center !important;
+    padding:0px 15px 0px 15px;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 10rem;
+}
+
+.medtech{
+    align-items: center;
+    padding:0px 15px 0px 15px;
+    text-decoration: none;
+    text-align: center !important;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 10rem;
+}
+
+
+.material{
+    text-decoration: none;
+    text-align: center !important;
+    padding:0px 15px 0px 15px;
+    color: black;
+    padding-bottom: 10rem;
+}
+
+.built{
+    text-decoration: none;
+    text-align: center !important;
+    padding:0px 15px 0px 15px;
+    color: black;
+    padding-bottom: 10rem;
+}
+
+.economy{
+    text-decoration: none;
+    text-align: center !important;
+    padding:0px 15px 0px 15px;
+    color: black;
+    padding-bottom: 10rem;
+}
+
+.text1{
+    padding-left: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.text2{
+    padding-left: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.text3{
+    padding-left: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.text4{
+    padding-left: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.text5{
+    padding-left: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    bottom: 10;
+    transition: none;
+    position: absolute;
+    top: 200;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    color: black;
+    text-align: center;
+    opacity: .5;
+    max-width: 70%;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+.carousel-control-prev{
+    left: 0;
+}
+
+.carousel-control-next{
+    right: 0;
+}
+
+.a{
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+::before, ::after{
+    box-sizing: border-box;
+}
+
+.fa {
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size:24px;color:black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+
+.portfolio-item {
+    max-width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.i {
+    color: gray;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-item .portfolio-caption {
+    padding: 1rem;
+    text-align: center;
+    background-color: #EFEFEF;
+}
+
+.portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    font-family: 'Dosis', sans-serif;
+    font-size: 0.5rem;
+}
+
+.img-fluid {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    justify-content: center !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    text-align: center !important;
+    max-width: 800px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 8rem;
+}
+
+.resources {
+    background-color: #f8f9fa;
+}
+
+.row2{
+    justify-content: space-between !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    text-align: center !important;
+    max-width: 1000px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 8rem;
+}
+
+.title2{ 
+    padding-left: 0px;
+    font-size: 1.3rem;
+    padding-top: 4rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    padding-bottom: 100px;
+    text-align: center !important;
+    
+}
+
+.content{
+    padding: 5rem;
+    text-align: center;
+    background-color: #EFEFEF;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    border-radius: 50px;
+}

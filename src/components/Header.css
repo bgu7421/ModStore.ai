@@ -1,0 +1,139 @@
+.logo {
+    background: #EDEDED;
+    font-size: 0rem;
+    padding: 30px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.NavLink {
+    text-decoration: none;
+}
+
+.logoName{
+    font-size: 1.2rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    padding: 5px 5px;
+    background: EDEDED;
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    background: white;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    
+}
+
+.item {
+    text-align: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    display: table-cell;
+    color: black;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+.item:hover {
+    background: #EDEDED;
+}
+
+.item:active, .item.active {
+    background: EDEDED;
+    color: black;
+}
+
+.account {
+    background: black;
+    display: table;
+    table-layout: fixed;
+    width: 15%;
+    text-align: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    display: table-cell;
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+.account:hover {
+    background: #EDEDED;
+    color: black;
+}   
+
+
+
+/*dropdown menu*/
+
+.item li ul{
+    background: rgb(109,109,109);
+    display:none; 
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:210px;
+    z-index:200;
+    }
+    
+.item li:hover ul{
+    display:block; 
+    }
+    
+.item li li {
+    background: rgb(109,109,109);
+    display:block;
+    float:none;
+    margin:0px;
+    padding:0px;
+    width:210px;
+    }
+    
+.item li:hover li a{
+    background:none;
+    }
+    
+.item li ul a{
+    display:block;
+    padding:0px;
+    margin:0px;
+    height:50px;
+    font-size:12px;
+    font-style:normal;
+    padding:0px 14px 0px 15px;
+    text-align:center;
+    line-height: 50px;
+
+    }
+    
+.item li ul a:hover, .item li ul li:hover a{
+    background: rgb(71,71,71);
+    border:0px;
+    padding:0px;
+    margin: 0px;
+    color:#ffffff;
+    text-decoration:none;
+    }
+    
+.item p{
+    clear:left;
+    }
+
+.item ul{
+           
+        height:35px;
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
