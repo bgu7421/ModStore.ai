@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+이 프로젝트는 React를 사용한 Front-End 개발 작업물로
+A*STAR의 산하 IHPC ( Institute of High Performance Computing )에서 진행한 인턴쉽 기간동안
+제작된 작업물입니다.
 ## Available Scripts
 
 In the project directory, you can run:
