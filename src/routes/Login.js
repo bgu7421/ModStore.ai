@@ -22,6 +22,7 @@ export default class Home extends Component {
       .delete("http://localhost:3001/logout", { withCredentials: true })
       .then(response => {
         this.props.handleLogout();
+        this.props.history.push("/");
       })
       .catch(error => {
         console.log("logout error", error);
